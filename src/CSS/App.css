@@ -1,0 +1,391 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Login Styles */
+
+/* #a9788c */
+
+.Login{
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  margin-top:20px;
+}
+.loginTitle{
+  text-align: left;
+  font-weight: 700;
+  padding-left:15px; padding-top:.5px; padding-bottom:.5px;
+  background-color: #a9788c;
+  color: white;
+  border: .5px solid black;
+  border-radius: 25px 25px 0px 0px;
+}
+.loginBody{
+  height:auto;
+  border: .5px solid black;
+  border-radius: 0px 0px 25px 25px;
+  padding-bottom: 25px;
+}
+#userName, #password, #ConfirmPassword, #DOB, #email, #NNoteContent, #NNoteTitle, #NGoalContent, #NGoalTitle, #Due{
+  height: 30px;
+  width: 60%;
+  border-radius: 8px;
+}
+.greenBtn{
+  color: white;
+  height: 30px;
+  width: auto;
+  background-color: #666c8a;
+  border-radius: 8px;
+  margin: 2px;
+  display: inline-block;
+}
+.redBtn{
+  height: 30px;
+  width: auto;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  margin: 2px;
+}
+
+/* Nav Styles */
+.Nav{
+  height: fit-content;
+  width: 100%;
+  background-color:#666c8a;
+  text-align: right;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-flex;
+}
+.usernameNav{
+  margin-top: 10px;
+}
+.emailNav{
+  margin-bottom: 10px;
+}
+.cardImg{
+  float: left;
+  height: 90px;
+  width: 86px;
+  border-radius: 50%;
+}
+.cardBody{
+  border-radius: 8px;
+  padding: 5px;
+  background-color: #666c8a;
+  text-align: left;
+  width: fit-content;
+  max-width: 219px;
+  float: right;
+  height: 80px;
+}
+.profCard{
+  background-color: #a9788c;
+  color: white;
+  font-size: 20;
+  font-weight:700;
+  width: 300px;
+  height: 110px;
+  border-radius: 8px;
+  margin-left: 25px;
+  clear: left;
+  padding: 5px;
+}
+.profileLink{
+  text-align: center;
+  clear: both;
+  height: auto;
+  margin: 2px;
+  color: blue;
+}
+.settingImg{
+  height: 40px;
+  width: 40px;
+  display:inline-block;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+}
+.menu{
+  display:block;
+  border-radius: 8px 0px 0px 8px;
+  background-color: #a9788c;
+  width: fit-content;
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5px;
+}
+.buttons{
+  display: inline-block;
+}
+
+
+/* Home Styles */
+.homeHeader{
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #a9788c;
+}
+.homeUName{
+  margin: 0px;
+}
+.homePreviewLeft{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.homePreviewRight{
+  float: right;
+  width: 49%;
+  text-align: center;
+  border-left: #282c34 2px solid;
+}
+.hpGoalTitle{
+  display: inline-block;
+}
+.hpGoalDueDate{
+  float: right;
+  margin-right: 10px;
+}
+.previewCols{
+  display: border-box;
+}
+.otherNoteTitle{
+  display: block;
+  font-weight: 700;
+  padding-left:15px;padding-right: 15px; padding-top:.5px;
+  background-color: #a9788c;
+  height:50px ;
+  border: .5px solid black;
+  border-radius: 25px 25px 0px 0px;
+  color: white;
+}
+.joe{
+  width: 600px;
+  text-align: center;
+  margin: 15px auto 15px auto;
+}
+#ching{
+  float: left;
+}
+#wang{
+  float: right;
+  color: blue;
+}
+.hpSeeAll{
+  color: blue;
+}
+
+
+
+
+/* Notes Styles */
+.NotesHeader{
+  height: 100%;
+  text-align: left;
+  padding: 20px;
+  background-color:#a9788c;
+}
+.NoteList{
+  width: 600px;
+  margin: auto;
+  margin-top:20px;
+}
+.NoteTitle{
+  text-align: left;
+  font-weight: 700;
+  padding-left:15px; padding-top:.5px;
+  background-color: #a9788c;
+  color: white;
+  border: .5px solid black;
+  border-radius: 25px 25px 0px 0px;
+}
+.NoteBody{
+  padding: 7px;
+  text-align: left;
+  border: .5px solid black;
+  border-radius: 0px 0px 25px 25px;
+  margin: 0px;
+  min-height: 40px;
+  height: auto;
+}
+#newNote{
+  float: right;
+  margin-top:30px;
+}
+.NotesTitle{
+  display: inline-block;
+}
+
+
+
+
+/* New Notes Styles */
+.NNote{
+  width: 600px;
+  margin: auto;
+  margin-top:20px;
+}
+.NNoteTitl{
+  text-align: left;
+  font-weight: 700;
+  padding-left:15px; padding-top:.5px; padding-bottom:.5px;
+  background-color: #a9788c;
+  color: white;
+  border: .5px solid black;
+  border-radius: 25px 25px 0px 0px;
+}
+.NNoteBody{
+  height:auto;
+  border: .5px solid black;
+  border-radius: 0px 0px 25px 25px;
+  padding-bottom: 25px;
+}
+#NNoteContent{
+  max-width: 60%;
+  min-width: 60%;
+  min-height: 30px;
+}
+
+
+
+
+/* Goals Styles */
+.GoalsHeader{
+  height: 100%;
+  text-align: left;
+  padding: 20px;
+  background-color:lightgreen;
+}
+.GoalList{
+  width: 600px;
+  margin: auto;
+  margin-top:20px;
+}
+.GoalTitle{
+  text-align: left;
+  font-weight: 700;
+  padding-left:15px; padding-top:.5px;
+  color: white;
+  border: .5px solid black;
+  border-radius: 25px 25px 0px 0px;
+}
+.GoalBody{
+  padding: 7px;
+  text-align: left;
+  border: .5px solid black;
+  border-radius: 0px 0px 25px 25px;
+  margin: 0px;
+  min-height: 40px;
+  height: auto;
+}
+#newGoal{
+  float: right;
+  margin-top:30px;
+}
+.GoalsTitle{
+  display: inline-block;
+}
+
+
+
+
+
+/* New Goals Styles */
+.NGoal{
+  width: 600px;
+  margin: auto;
+  margin-top:20px;
+}
+.NGoalTitl{
+  text-align: left;
+  font-weight: 700;
+  padding-left:15px; padding-top:.5px; padding-bottom:.5px;
+  background-color: #a9788c;
+  color: white;
+  border: .5px solid black;
+  border-radius: 25px 25px 0px 0px;
+}
+.NGoalBody{
+  height:auto;
+  border: .5px solid black;
+  border-radius: 0px 0px 25px 25px;
+  padding-bottom: 25px;
+}
+#NGoalContent{
+  max-width: 60%;
+  min-width: 60%;
+  min-height: 30px;
+}
+
+/* Goal Colors */
+.yellow{
+  background-color: yellow !important;
+  color: black;
+}
+.red{
+  background-color: red !important;
+  color: white;
+}
+.green{
+  background-color: green;
+  color: black;
+}
+
+/* profile */
+.profileBox{
+  margin: 10px;
+}
+.profileTitle{
+  text-align: center;
+}
+.Lprof{
+  height: 600px;
+}
+.Rprof{
+  height: 100%;
+}
+.FprofileName{
+  color: blue;
+}
