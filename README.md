@@ -1,2 +1,2 @@
 # Haus-M8
-Lifestyle Aid
+Lifestyle Aid / Proof of concept for future BD development
